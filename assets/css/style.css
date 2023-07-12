@@ -1,116 +1,115 @@
-body {
-    font-family: 'Montserrat', sans-serif;
-}
+body {font-family: 'Montserrat', sans-serif;}
 
-.nav_bg {
-    background: #00fffb;
-    background: linear-gradient(90deg, #8600ff 0%, #00fffb 100%);
-}
+.nav_bg {background: linear-gradient(90deg, #8600ff 0%, #00fffb 100%);}
 
 .logo {
-    max-height: 100px;
-    min-height: 50px;
+    max-height: 40px;
+    min-height: 40px;
 }
 
-.brand_text {
-    font-size: 1rem;
-}
+.brand_text {font-size: 1rem;}
+
+.brand_text:hover {cursor: default;}
+
+.nav-link {font-size: 0.75rem;}
 
 .title {
     font-size: 2.1rem;
 }
 
+.title:hover {cursor: default;}
+
+.me:hover {cursor: default;}
+
 .divider {
     height: 1px;
     width: 100%;
-    background: #00fffb;
     background: linear-gradient(90deg, #00fffb 0%, #8600ff 100%);
 }
+
+.carousel:hover {cursor: default;}
 
 .divider2 {
     height: 1px;
     width: 100%;
-    background: #00fffb;
     background: linear-gradient(90deg, #8600ff 0%, #00fffb 100%);
 }
 
-.purple {
-    color: #ff00ff;
+.purple {color: #ff00ff;}
+.cyan {color: #00fffb;}
+
+.subtitle {font-size: 1.5rem;}
+
+.subtitle:hover {cursor: default;}
+
+.skill-container {
+    height: 2rem;
+    font-size: 0.75rem;
 }
 
-.lilac {
-    color: #bb50fd;
-}
+.skill-container:hover {cursor: default}
 
-.cyan {
-    color: #00fffb;
-}
+.html_color {background-color: #e34c26;}
+.css_color {background-color: #264de4;}
+.bs_color {background-color: #5421bb;}
+.js_color {background-color: #F0DB4F;}
+.git_color {background-color: #f34f29;}
+.bg-cyan-700 {background-color: #025d6f;}
 
 /* Media Queries */
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 575.98px) {
     .logo {
-        max-height: 100px;
-        min-height: 70px;
+        max-height: 50px;
+        min-height: 30px;
     }
-    .brand_text {
-        font-size: 1.25rem;
-    }
-    .title {
-        font-size: 2.3rem;
+    .brand_text {font-size: 1.1rem;}
+    .nav-link{font-size: 0.8rem;}
+    .title {font-size: 2.3rem;}
+    .skill-container {
+        height: 2.2rem;
+        font-size: 0.85rem;
     }
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 767.98px) {
-    .brand_text {
-        font-size: 1.5rem;
-    }
-    .title {
-        font-size: 2.5rem;
+    .brand_text {font-size: 1.5rem;}
+    .nav-link{font-size: 0.85rem;}
+    .title {font-size: 2.5rem;}
+    .skill-container {
+        height: 2.35rem;
+        font-size: 0.90rem;
     }
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 991.98px) {
-    .brand_text {
-        font-size: 1.75rem;
-    }
-    .title {
-        font-size: 3rem;
-    }
-    .nav-link {
-        font-size: 1rem;
+    .brand_text {font-size: 1.2rem;}
+    .nav-link{font-size: 0.85rem;}
+    .title {font-size: 3rem;}
+    .skill-container {
+        height: 2.5rem;
+        font-size: 0.95rem;
     }
 }
 
 /* X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1199.98px) {
-    .brand_text {
-        font-size: 2rem;
-    }
-    .title {
-        font-size: 3.2rem;
-    }
-    .nav-link {
-        font-size: 1.1rem;
-    }
+    .brand_text {font-size: 1.3rem;}
+    .nav-link{font-size: 0.85rem;}
+    .title {font-size: 3.2rem;}
+    .skill-container {font-size: 1rem;}
 }
 
 /* XX-Large devices (larger desktops, 1400px and up) */
 @media (min-width: 1399.98px) {
     .logo {
-        max-height: 120px;
-        min-height: 70px;
+        max-height: 80px;
+        min-height: 60px;
     }
-    .brand_text {
-        font-size: 2.25rem;
-    }
-    .title {
-        font-size: 4rem;
-    }
-    .nav-link {
-        font-size: 1.6rem;
-    }
+    .brand_text {font-size: 2rem;}
+    .nav-link{font-size: 1rem;}
+    .title {font-size: 4rem;}
 }

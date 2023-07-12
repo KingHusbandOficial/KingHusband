@@ -5,7 +5,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Daniel Ordóñez | FullStack JS</title>
-		<link rel="shortcut icon" href="./assets/img/KH.png" type="image/x-icon" />
+		<link rel="shortcut icon" href="./assets/img/KH_zoom+.png" type="image/x-icon" />
 
 		<!-- Bootstrap -->
 		<link
@@ -23,13 +23,13 @@
 		<link rel="stylesheet" href="./assets/css/style.css" />
 	</head>
 
-	<body class="bg-black">
+	<body class="bg-dark">
 		<header>
 			<nav class="navbar navbar-expand-lg nav_bg">
 				<div class="container-fluid">
-					<div class="col-7 col-sm-5 d-flex flex-row align-items-center">
+					<div class="d-flex flex-row align-items-center col-7 col-sm-5">
 						<a class="navbar-brand" href="#">
-							<img class="rounded img-fluid logo" src="./assets/img/KH.png" alt="King Husband" />
+							<img class="img-fluid rounded logo" src="./assets/img/KH_zoom+.png" alt="King Husband" />
 						</a>
 						<div class="text-black fw-bolder brand_text col-8">
 							KING HUSBAND
@@ -47,17 +47,17 @@
 					</button>
 					<div class="collapse navbar-collapse justify-content-end" id="navbarNav">
 						<ul
-							class="navbar-nav container col-3 col-sm-3 col-md-4 col-lg-4 col-xl-5 justify-content-start justify-content-lg-end m-0 p-0 pe-lg-3">
-							<li class="nav-item pt-3 pt-lg-0 pb-1 pb-lg-0 pe-lg-1 col-12 col-sm-10 col-md-6 col-xl-4 col-xxl-5">
-								<a class="nav-link active text-info rounded bg-dark text-center py-xl-2" aria-current="page" href="#"
+							class="navbar-nav container justify-content-start justify-content-lg-end col-2 col-md-3 col-lg-4 col-xl-5 m-0 p-0 pe-lg-3">
+							<li class="nav-item col-9 col-sm-8 col-md-5 col-lg-5 col-xl-4 col-xxl-4 pt-3 pt-lg-0 pb-1 pb-lg-0 pe-lg-1">
+								<a class="nav-link active bg-black rounded fw-bolder text-center text-info  px-lg-1 py-xl-2" aria-current="page" href="#"
 									>Home</a
 								>
 							</li>
-							<li class="nav-item py-1 py-lg-0 px-lg-1 col-12 col-sm-10 col-md-6 col-xl-4 col-xxl-5">
-								<a class="nav-link text-bg-secondary rounded bg-dark text-center py-xl-2" href="#">About</a>
+							<li class="nav-item col-9 col-sm-8 col-md-5 col-lg-5 col-xl-4 col-xxl-4 py-1 py-lg-0 px-lg-1">
+								<a class="nav-link bg-black text-bg-secondary rounded fw-bolder text-center  px-lg-1 py-xl-2" href="#">About</a>
 							</li>
-							<li class="nav-item py-1 py-lg-0 ps-lg-1 col-12 col-sm-10 col-md-6 col-xl-4 col-xxl-5">
-								<a class="nav-link text-bg-secondary rounded bg-dark text-center py-xl-2" href="#">Contact</a>
+							<li class="nav-item col-9 col-sm-8 col-md-5 col-lg-5 col-xl-4 col-xxl-4 py-1 py-lg-0 px-lg-1">
+								<a class="nav-link bg-black text-bg-secondary rounded fw-bolder text-center  px-lg-1 py-xl-2" href="#">Contact</a>
 							</li>
 						</ul>
 					</div>
@@ -69,7 +69,7 @@
 			<!-- Short summary -->
 			<section class="d-flex flex-column justify-content-center justify-content-lg-start py-5 ps-lg-4">
 				<!-- Name -->
-				<article class="container d-block col-lg-6 mb-1 ms-lg-4 text-center text-lg-start">
+				<article class="d-block container text-center text-lg-start col-lg-6 mb-1 ms-lg-4">
 					<h1 class="text-light title">
 						FullStack
 						<span class="d-block d-lg-inline cyan">JavaScript</span>
@@ -77,8 +77,8 @@
 				</article>
 				<!-- Short bio -->
 				<article
-					class="container d-flex ms-lg-4 text-center text-lg-start justify-content-center justify-content-lg-start">
-					<div class="col-7 col-sm-6 col-md-5 col-lg-4 text-light">
+					class="d-flex container justify-content-center justify-content-lg-start text-center text-lg-start ms-lg-4">
+					<div class="text-light col-7 col-sm-6 col-md-5 col-lg-4 me">
 						<p class="fs-5 m-0">Daniel Ordóñez</p>
 						<p class="fs-6 m-0">from Zulia, Venezuela</p>
 					</div>
@@ -86,9 +86,9 @@
 			</section>
 			<div class="divider"></div>
 			<!-- Body -->
-			<section class="bg-dark">
+			<section class="bg-black">
 				<!-- Short description -->
-				<article class="d-flex py-4 text-center justify-content-center">
+				<article class="d-flex justify-content-center text-center py-4">
 					<div id="qualities" class="carousel slide container-fluid fs-5 fw-bolder" data-bs-ride="carousel">
 						<div class="carousel-inner text-light">
 							<div class="carousel-item purple active">IMAGINATION = CODE</div>
@@ -102,19 +102,71 @@
 				</article>
 			</section>
 			<div class="divider2"></div>
-			<section class="bg-black">
-				<!-- Text -->
-				<article>
-
+			<section class="d-flex flex-column flex-lg-row container-fluid py-5">
+				<article class="d-flex flex-wrap justify-content-center align-content-start col-lg-6">
+					<div class="subtitle col-12 text-center text-light fw-bolder mb-4">SKILLS</div>
+					<table class="table">
+						<tr class="d-flex container justify-content-center">
+							<th class="bg-dark text-light border-0 col-2">
+								<div class="d-flex align-items-center justify-content-center rounded skill-container html_color fw-bolder">HTML</div>
+							<th class="bg-dark text-light border-0 col-2">
+								<div class="d-flex align-items-center justify-content-center rounded skill-container css_color fw-bolder">CSS</div>
+							</th>
+							<th class="bg-dark text-light border-0 col-3">
+								<div class="d-flex align-items-center justify-content-center rounded skill-container bs_color fw-bolder ">BOOTSTRAP</div>
+							</th>
+						</tr>
+						<tr class="d-flex container justify-content-center text-light">
+							<th class="bg-dark border-0 col-3">
+								<div class="d-flex align-items-center justify-content-center rounded skill-container js_color fw-bolder text-black fw-bolder">JAVASCRIPT</div>
+							</th>
+							<th class="bg-dark border-0 col-2">
+								<div class="d-flex align-items-center justify-content-center rounded skill-container git_color fw-bolder text-light fw-bolder">GIT</div>
+							</th>
+							<th class="bg-dark border-0 col-3">
+								<div class="d-flex align-items-center justify-content-center rounded skill-container bg-black fw-bolder text-light fw-bolder">GITHUB</div>
+							</th>
+						</tr>
+						<tr class="d-flex container justify-content-center text-light">
+							<th class="bg-dark border-0 col-2">
+								<div class="d-flex align-items-center justify-content-center rounded skill-container bg-primary fw-bolder text-black fw-bolder">-----</div>
+							</th>
+							<th class="bg-dark border-0 col-3">
+								<div class="d-flex align-items-center justify-content-center rounded skill-container bg-success fw-bolder text-light fw-bolder">-----</div>
+							</th>
+							<th class="bg-dark border-0 col-2">
+								<div class="d-flex align-items-center justify-content-center rounded skill-container bg-warning fw-bolder text-light fw-bolder">-----</div>
+							</th>
+						</tr>
+						<tr class="d-flex container justify-content-center text-light">
+							<th class="bg-dark border-0 col-3">
+								<div class="d-flex align-items-center justify-content-center rounded skill-container bg-info fw-bolder text-black fw-bolder">-----</div>
+							</th>
+							<th class="bg-dark border-0 col-3">
+								<div class="d-flex align-items-center justify-content-center rounded skill-container bg-secondary fw-bolder text-light fw-bolder">-----</div>
+							</th>
+							<th class="bg-dark border-0 col-2">
+								<div class="d-flex align-items-center justify-content-center rounded skill-container bg-danger fw-bolder text-light fw-bolder">-----</div>
+							</th>
+						</tr>
+					</table>
 				</article>
 				<!-- Image -->
-				<article class="pt-5">
-					<div class="container col-7 col-sm-6 col-md-5 col-lg-4">
-						<img src="./assets/img/coding2.webp" alt="developer conding" class="img-fluid" />
+				<article class="pt-5 pt-lg-0">
+					<div class="container col-7 col-sm-6 col-md-5 col-lg-9">
+						<img src="./assets/img/coding2.webp" alt="Developer conding" class="img-fluid" />
 					</div>
 				</article>
 			</section>
 		</main>
+
+		<footer class="py-3 py-md-4 mt-5 bg-cyan-700">
+			<div class="container py-4 py-md-5 px-4 px-md-3 text-body-secondary">
+				<div class="row">
+
+				</div>
+			</div>
+		</footer>
 
 		<script
 			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
