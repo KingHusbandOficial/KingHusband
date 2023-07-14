@@ -7,11 +7,11 @@ body {font-family: 'Montserrat', sans-serif;}
     min-height: 40px;
 }
 
-.brand_text {font-size: 1rem;}
+.brand_text {font-size: 0.8rem;}
 
 .brand_text:hover {cursor: default;}
 
-.nav-link {font-size: 0.75rem;}
+.nav-link {font-size: 0.65rem;}
 
 .title {
     font-size: 2.1rem;
@@ -43,8 +43,8 @@ body {font-family: 'Montserrat', sans-serif;}
 .subtitle:hover {cursor: default;}
 
 .skill-container {
-    height: 2rem;
-    font-size: 0.75rem;
+    height: 2.5rem;
+    font-size: 0.8rem;
 }
 
 .skill-container:hover {cursor: default}
@@ -64,12 +64,12 @@ body {font-family: 'Montserrat', sans-serif;}
         max-height: 50px;
         min-height: 30px;
     }
-    .brand_text {font-size: 1.1rem;}
+    .brand_text {font-size: 1.15rem;}
     .nav-link{font-size: 0.8rem;}
     .title {font-size: 2.3rem;}
     .skill-container {
         height: 2.2rem;
-        font-size: 0.85rem;
+        font-size: 0.825rem;
     }
 }
 
@@ -80,14 +80,14 @@ body {font-family: 'Montserrat', sans-serif;}
     .title {font-size: 2.5rem;}
     .skill-container {
         height: 2.35rem;
-        font-size: 0.90rem;
+        font-size: 0.85rem;
     }
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 991.98px) {
     .brand_text {font-size: 1.2rem;}
-    .nav-link{font-size: 0.85rem;}
+    .nav-link{font-size: 0.875rem;}
     .title {font-size: 3rem;}
     .skill-container {
         height: 2.5rem;
@@ -98,7 +98,7 @@ body {font-family: 'Montserrat', sans-serif;}
 /* X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1199.98px) {
     .brand_text {font-size: 1.3rem;}
-    .nav-link{font-size: 0.85rem;}
+    .nav-link{font-size: 0.9rem;}
     .title {font-size: 3.2rem;}
     .skill-container {font-size: 1rem;}
 }
@@ -110,6 +110,6 @@ body {font-family: 'Montserrat', sans-serif;}
         min-height: 60px;
     }
     .brand_text {font-size: 2rem;}
-    .nav-link{font-size: 1rem;}
+    .nav-link{font-size: 0.95rem;}
     .title {font-size: 4rem;}
 }
