@@ -78,6 +78,14 @@ body {font-family: 'Montserrat', sans-serif;}
 
 .card_title-size {font-size: 0.8rem;}
 
+a > i {
+    font-size: 1.5rem;
+}
+
+#copyright {font-size: 0.7rem;}
+
+#copyright:hover {cursor: default;}
+
 /* Media Queries */
 
 /* Small devices (landscape phones, 576px and up) */
@@ -89,13 +97,17 @@ body {font-family: 'Montserrat', sans-serif;}
     .brand_text {font-size: 1.15rem;}
     .nav-link{font-size: 0.8rem;}
     .title {font-size: 2.3rem;}
-    .carousel-item {font-size: .85rem;}
+    .carousel-item {font-size: .9rem;}
     .subtitle {font-size: 1.1rem;}
     .skill-container {
         height: 2.2rem;
         font-size: 0.825rem;
     }
     .card_title-size {font-size: 1rem;}
+    a > i {
+        font-size: 1.7rem;
+    }
+    #copyright {font-size: 0.75rem;}
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -103,13 +115,17 @@ body {font-family: 'Montserrat', sans-serif;}
     .brand_text {font-size: 1.5rem;}
     .nav-link{font-size: 0.85rem;}
     .title {font-size: 2.5rem;}
-    .carousel-item {font-size: .9rem;}
+    .carousel-item {font-size: 1rem;}
     .subtitle {font-size: 1.2rem;}
     .skill-container {
         height: 2.35rem;
         font-size: 0.85rem;
     }
     .card_title-size {font-size: 1.1rem;}
+    a > i {
+        font-size: 1.9rem;
+    }
+    #copyright {font-size: 0.8rem;}
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -117,13 +133,17 @@ body {font-family: 'Montserrat', sans-serif;}
     .brand_text {font-size: 1.2rem;}
     .nav-link{font-size: 0.875rem;}
     .title {font-size: 3rem;}
-    .carousel-item {font-size: .95rem;}
+    .carousel-item {font-size: 1.1rem;}
     .subtitle {font-size: 1.3rem;}
     .skill-container {
         height: 2.5rem;
         font-size: 0.95rem;
     }
     .card_title-size {font-size: 1.1rem;}
+    a > i {
+        font-size: 2.1rem;
+    }
+    #copyright {font-size: 0.85rem;}
 }
 
 /* X-Large devices (large desktops, 1200px and up) */
@@ -131,10 +151,14 @@ body {font-family: 'Montserrat', sans-serif;}
     .brand_text {font-size: 1.3rem;}
     .nav-link{font-size: 0.9rem;}
     .title {font-size: 3.2rem;}
-    .carousel-item {font-size: 1rem;}
+    .carousel-item {font-size: 1.2rem;}
     .subtitle {font-size: 1.4rem;}
     .skill-container {font-size: 1rem;}
     .card_title-size {font-size: 1.25rem;}
+    a > i {
+        font-size: 2.3rem;
+    }
+    #copyright {font-size: 0.9rem;}
 }
 
 /* XX-Large devices (larger desktops, 1400px and up) */
@@ -146,7 +170,11 @@ body {font-family: 'Montserrat', sans-serif;}
     .brand_text {font-size: 2rem;}
     .nav-link{font-size: 0.95rem;}
     .title {font-size: 4rem;}
-    .carousel-item {font-size: 1.1rem;}
+    .carousel-item {font-size: 1.3rem;}
     .subtitle {font-size: 1.5rem;}
     .card_title-size {font-size: 1.35rem;}
+    a > i {
+        font-size: 2.5em;
+    }
+    #copyright {font-size: 1rem;}
 }
