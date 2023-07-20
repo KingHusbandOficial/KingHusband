@@ -13,9 +13,9 @@ body {font-family: 'Montserrat', sans-serif;}
 
 .nav-link {font-size: 0.65rem;}
 
-.title {
-    font-size: 2.1rem;
-}
+.title {font-size: 2.1rem;}
+
+.text_shadow {text-shadow: 5px 5px 3px #0d0d0d99;}
 
 .title:hover {cursor: default;}
 
@@ -29,6 +29,8 @@ body {font-family: 'Montserrat', sans-serif;}
 
 .carousel:hover {cursor: default;}
 
+.carousel-item {font-size: .8rem;}
+
 .divider2 {
     height: 1px;
     width: 100%;
@@ -38,7 +40,7 @@ body {font-family: 'Montserrat', sans-serif;}
 .purple {color: #ff00ff;}
 .cyan {color: #00fffb;}
 
-.subtitle {font-size: 1.5rem;}
+.subtitle {font-size: 1rem;}
 
 .subtitle:hover {cursor: default;}
 
@@ -55,6 +57,26 @@ body {font-family: 'Montserrat', sans-serif;}
 .js_color {background-color: #F0DB4F;}
 .git_color {background-color: #f34f29;}
 .bg-cyan-700 {background-color: #025d6f;}
+.bg-purple {background-color: #8600ff;}
+.bg-cyan {background-color: #00fffba7;}
+
+.box_shadow-0 {
+    box-shadow: 4px 4px 4px 0px #0d0d0d99;
+    -webkit-box-shadow: 4px 4px 4px 0px #0d0d0d99;
+    -moz-box-shadow: 4px 4px 4px 0px #0d0d0d99;
+}
+
+.box_shadow-1 {
+    box-shadow: 10px 10px 12px 0px #0d0d0dbf;
+    -webkit-box-shadow: 10px 10px 12px 0px #0d0d0dbf;
+    -moz-box-shadow: 10px 10px 12px 0px #0d0d0dbf;
+}
+
+.card-body:hover {
+    cursor: default;
+}
+
+.card_title-size {font-size: 0.8rem;}
 
 /* Media Queries */
 
@@ -67,10 +89,13 @@ body {font-family: 'Montserrat', sans-serif;}
     .brand_text {font-size: 1.15rem;}
     .nav-link{font-size: 0.8rem;}
     .title {font-size: 2.3rem;}
+    .carousel-item {font-size: .85rem;}
+    .subtitle {font-size: 1.1rem;}
     .skill-container {
         height: 2.2rem;
         font-size: 0.825rem;
     }
+    .card_title-size {font-size: 1rem;}
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -78,10 +103,13 @@ body {font-family: 'Montserrat', sans-serif;}
     .brand_text {font-size: 1.5rem;}
     .nav-link{font-size: 0.85rem;}
     .title {font-size: 2.5rem;}
+    .carousel-item {font-size: .9rem;}
+    .subtitle {font-size: 1.2rem;}
     .skill-container {
         height: 2.35rem;
         font-size: 0.85rem;
     }
+    .card_title-size {font-size: 1.1rem;}
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -89,10 +117,13 @@ body {font-family: 'Montserrat', sans-serif;}
     .brand_text {font-size: 1.2rem;}
     .nav-link{font-size: 0.875rem;}
     .title {font-size: 3rem;}
+    .carousel-item {font-size: .95rem;}
+    .subtitle {font-size: 1.3rem;}
     .skill-container {
         height: 2.5rem;
         font-size: 0.95rem;
     }
+    .card_title-size {font-size: 1.1rem;}
 }
 
 /* X-Large devices (large desktops, 1200px and up) */
@@ -100,7 +131,10 @@ body {font-family: 'Montserrat', sans-serif;}
     .brand_text {font-size: 1.3rem;}
     .nav-link{font-size: 0.9rem;}
     .title {font-size: 3.2rem;}
+    .carousel-item {font-size: 1rem;}
+    .subtitle {font-size: 1.4rem;}
     .skill-container {font-size: 1rem;}
+    .card_title-size {font-size: 1.25rem;}
 }
 
 /* XX-Large devices (larger desktops, 1400px and up) */
@@ -112,4 +146,7 @@ body {font-family: 'Montserrat', sans-serif;}
     .brand_text {font-size: 2rem;}
     .nav-link{font-size: 0.95rem;}
     .title {font-size: 4rem;}
+    .carousel-item {font-size: 1.1rem;}
+    .subtitle {font-size: 1.5rem;}
+    .card_title-size {font-size: 1.35rem;}
 }
