@@ -84,7 +84,7 @@ body {font-family: 'Montserrat', sans-serif;}
 }
 
 .card-body:hover {
-    cursor: default;
+    cursor: pointer;
 }
 
 .card_title-size {font-size: 0.8rem;}
