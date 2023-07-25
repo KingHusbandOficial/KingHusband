@@ -11,7 +11,17 @@ body {font-family: 'Montserrat', sans-serif;}
 
 .brand_text:hover {cursor: default;}
 
-.nav-link {font-size: 0.65rem;}
+.nav-link {
+    background-color: #000000;
+    font-size: 0.65rem;
+    transition-property: background-color, font-size;
+    transition-duration: 0.2s;
+}
+
+.nav-link:hover {
+    background-color: #009a98;
+    font-size: 0.7rem;
+}
 
 .title {font-size: 2.1rem;}
 
@@ -56,9 +66,10 @@ body {font-family: 'Montserrat', sans-serif;}
 .bs_color {background-color: #5421bb;}
 .js_color {background-color: #F0DB4F;}
 .git_color {background-color: #f34f29;}
-.bg-cyan-700 {background-color: #025d6f;}
-.bg-purple {background-color: #8600ff;}
 .bg-cyan {background-color: #00fffba7;}
+.bg-purple {background-color: #8600ff;}
+.bg-gray-800 {background-color: #343a40;}
+
 
 .box_shadow-0 {
     box-shadow: 4px 4px 4px 0px #0d0d0d99;
@@ -78,9 +89,28 @@ body {font-family: 'Montserrat', sans-serif;}
 
 .card_title-size {font-size: 0.8rem;}
 
-a > i {
+.fa-brands {
     font-size: 1.5rem;
 }
+
+.fa-facebook, .fa-github, .fa-linkedin, .fa-twitter {
+    color:#f8f9fa;
+    transition: color 0.2s ease-in-out;
+}
+
+.fa-instagram {
+    background: linear-gradient(to top right, #FEDA75 0%, #FA7E1E 25%, #D62976 50%, #962FBF 75%, #4F5BD5 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    transition: color .2s ease-in-out;
+    color:#f8f9fa;
+}
+
+.fa-facebook:hover {color: #2a61d8;}
+.fa-instagram:hover {color:#00000000;}
+.fa-github:hover {color: #000000;}
+.fa-linkedin:hover {color: #0e76a8;}
+.fa-twitter:hover {color: #00acee;}
 
 #copyright {font-size: 0.7rem;}
 
@@ -96,6 +126,7 @@ a > i {
     }
     .brand_text {font-size: 1.15rem;}
     .nav-link{font-size: 0.8rem;}
+    .nav-link:hover {font-size: 0.85rem;}
     .title {font-size: 2.3rem;}
     .carousel-item {font-size: .9rem;}
     .subtitle {font-size: 1.1rem;}
@@ -104,7 +135,7 @@ a > i {
         font-size: 0.825rem;
     }
     .card_title-size {font-size: 1rem;}
-    a > i {
+    .fa-brands {
         font-size: 1.7rem;
     }
     #copyright {font-size: 0.75rem;}
@@ -114,6 +145,7 @@ a > i {
 @media (min-width: 767.98px) {
     .brand_text {font-size: 1.5rem;}
     .nav-link{font-size: 0.85rem;}
+    .nav-link:hover {font-size: 0.9rem;}
     .title {font-size: 2.5rem;}
     .carousel-item {font-size: 1rem;}
     .subtitle {font-size: 1.2rem;}
@@ -122,7 +154,7 @@ a > i {
         font-size: 0.85rem;
     }
     .card_title-size {font-size: 1.1rem;}
-    a > i {
+    .fa-brands {
         font-size: 1.9rem;
     }
     #copyright {font-size: 0.8rem;}
@@ -132,6 +164,10 @@ a > i {
 @media (min-width: 991.98px) {
     .brand_text {font-size: 1.2rem;}
     .nav-link{font-size: 0.875rem;}
+    .nav-link:hover {
+        background-color: #7000d2;
+        font-size: 0.925rem;
+    }
     .title {font-size: 3rem;}
     .carousel-item {font-size: 1.1rem;}
     .subtitle {font-size: 1.3rem;}
@@ -140,7 +176,7 @@ a > i {
         font-size: 0.95rem;
     }
     .card_title-size {font-size: 1.1rem;}
-    a > i {
+    .fa-brands {
         font-size: 2.1rem;
     }
     #copyright {font-size: 0.85rem;}
@@ -150,12 +186,13 @@ a > i {
 @media (min-width: 1199.98px) {
     .brand_text {font-size: 1.3rem;}
     .nav-link{font-size: 0.9rem;}
+    .nav-link:hover {font-size: 0.95rem;}
     .title {font-size: 3.2rem;}
     .carousel-item {font-size: 1.2rem;}
     .subtitle {font-size: 1.4rem;}
     .skill-container {font-size: 1rem;}
     .card_title-size {font-size: 1.25rem;}
-    a > i {
+    .fa-brands {
         font-size: 2.3rem;
     }
     #copyright {font-size: 0.9rem;}
@@ -169,11 +206,12 @@ a > i {
     }
     .brand_text {font-size: 2rem;}
     .nav-link{font-size: 0.95rem;}
+    .nav-link:hover {font-size: 1rem;}
     .title {font-size: 4rem;}
     .carousel-item {font-size: 1.3rem;}
     .subtitle {font-size: 1.5rem;}
     .card_title-size {font-size: 1.35rem;}
-    a > i {
+    .fa-brands {
         font-size: 2.5em;
     }
     #copyright {font-size: 1rem;}
