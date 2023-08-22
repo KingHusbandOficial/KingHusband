@@ -1,6 +1,11 @@
 body {font-family: 'Montserrat', sans-serif;}
 
+/* <header></header> */
+    /* <nav></nav> */
+
 .nav_bg {background: linear-gradient(90deg, #8600ff 0%, #00fffb 100%);}
+
+#btn-logo:hover {cursor: default;}
 
 .logo {
     max-height: 40px;
@@ -12,6 +17,7 @@ body {font-family: 'Montserrat', sans-serif;}
 .brand_text:hover {cursor: default;}
 
 .nav-link {
+    color: #f8f9fa;
     background-color: #000000;
     font-size: 0.65rem;
     transition-property: background-color, font-size;
@@ -19,9 +25,19 @@ body {font-family: 'Montserrat', sans-serif;}
 }
 
 .nav-link:hover {
+    color: #eaeaea;
     background-color: #009a98;
     font-size: 0.7rem;
 }
+
+.nav-link:focus {color: #eaeaea;}
+
+.nav-link-showed {
+    color: #eaeaea;
+    background-color: #009a98;
+}
+
+/* Home <main></main> */
 
 .title {font-size: 2.1rem;}
 
@@ -70,7 +86,6 @@ body {font-family: 'Montserrat', sans-serif;}
 .bg-purple {background-color: #8600ff;}
 .bg-gray-800 {background-color: #343a40;}
 
-
 .box_shadow-0 {
     box-shadow: 4px 4px 4px 0px #0d0d0d99;
     -webkit-box-shadow: 4px 4px 4px 0px #0d0d0d99;
@@ -83,11 +98,33 @@ body {font-family: 'Montserrat', sans-serif;}
     -moz-box-shadow: 10px 10px 12px 0px #0d0d0dbf;
 }
 
-.card-body:hover {
-    cursor: pointer;
+/* .project-element:hover {} */
+
+.project-1 {
+    background-image: url(../img/NimrodelPubRestaurant.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 150px;
 }
 
+.card-body:hover {cursor: pointer;}
+
 .card_title-size {font-size: 0.8rem;}
+
+/* About <main></main>*/
+
+.about-title {
+    letter-spacing: 2px;
+    font-weight: bolder;
+}
+
+.title-separator {
+    border: 2px solid;
+}
+
+.about-p {font-size: 1rem;}
+
+/* <footer></footer> */
 
 .fa-brands {
     font-size: 1.5rem;
@@ -120,6 +157,7 @@ body {font-family: 'Montserrat', sans-serif;}
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 575.98px) {
+    /* <header></header> */
     .logo {
         max-height: 50px;
         min-height: 30px;
@@ -127,6 +165,7 @@ body {font-family: 'Montserrat', sans-serif;}
     .brand_text {font-size: 1.15rem;}
     .nav-link{font-size: 0.8rem;}
     .nav-link:hover {font-size: 0.85rem;}
+    /* Home <main></main> */
     .title {font-size: 2.3rem;}
     .carousel-item {font-size: .9rem;}
     .subtitle {font-size: 1.1rem;}
@@ -135,6 +174,7 @@ body {font-family: 'Montserrat', sans-serif;}
         font-size: 0.825rem;
     }
     .card_title-size {font-size: 1rem;}
+    /* <footer></footer> */
     .fa-brands {
         font-size: 1.7rem;
     }
@@ -143,9 +183,11 @@ body {font-family: 'Montserrat', sans-serif;}
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 767.98px) {
+    /* <header></header> */
     .brand_text {font-size: 1.5rem;}
     .nav-link{font-size: 0.85rem;}
     .nav-link:hover {font-size: 0.9rem;}
+    /* Home <main></main> */
     .title {font-size: 2.5rem;}
     .carousel-item {font-size: 1rem;}
     .subtitle {font-size: 1.2rem;}
@@ -154,6 +196,7 @@ body {font-family: 'Montserrat', sans-serif;}
         font-size: 0.85rem;
     }
     .card_title-size {font-size: 1.1rem;}
+    /* <footer></footer> */
     .fa-brands {
         font-size: 1.9rem;
     }
@@ -162,12 +205,25 @@ body {font-family: 'Montserrat', sans-serif;}
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 991.98px) {
+    /* <header></header> */
     .brand_text {font-size: 1.2rem;}
-    .nav-link{font-size: 0.875rem;}
+    .navbar {
+        position: fixed;
+        width: 100%;
+        z-index: 2;
+        top: 0;
+    }
+    .nav-link {font-size: 0.875rem;}
     .nav-link:hover {
+        color: #f9f9f9;
         background-color: #7000d2;
         font-size: 0.925rem;
     }
+    .nav-link-showed {
+        color: #f9f9f9;
+        background-color: #7000d2;
+    }
+    /* Home <main></main> */
     .title {font-size: 3rem;}
     .carousel-item {font-size: 1.1rem;}
     .subtitle {font-size: 1.3rem;}
@@ -176,6 +232,10 @@ body {font-family: 'Montserrat', sans-serif;}
         font-size: 0.95rem;
     }
     .card_title-size {font-size: 1.1rem;}
+    /* About <main></main>*/
+    .showedMain-about {padding-top: 3rem;}
+    .about-p {font-size: 1.25rem;}
+    /* <footer></footer> */
     .fa-brands {
         font-size: 2.1rem;
     }
@@ -184,14 +244,17 @@ body {font-family: 'Montserrat', sans-serif;}
 
 /* X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1199.98px) {
+    /* <header></header> */
     .brand_text {font-size: 1.3rem;}
     .nav-link{font-size: 0.9rem;}
     .nav-link:hover {font-size: 0.95rem;}
+    /* Home <main></main> */
     .title {font-size: 3.2rem;}
     .carousel-item {font-size: 1.2rem;}
     .subtitle {font-size: 1.4rem;}
     .skill-container {font-size: 1rem;}
     .card_title-size {font-size: 1.25rem;}
+    /* <footer></footer> */
     .fa-brands {
         font-size: 2.3rem;
     }
@@ -200,6 +263,7 @@ body {font-family: 'Montserrat', sans-serif;}
 
 /* XX-Large devices (larger desktops, 1400px and up) */
 @media (min-width: 1399.98px) {
+    /* <header></header> */
     .logo {
         max-height: 80px;
         min-height: 60px;
@@ -207,10 +271,12 @@ body {font-family: 'Montserrat', sans-serif;}
     .brand_text {font-size: 2rem;}
     .nav-link{font-size: 0.95rem;}
     .nav-link:hover {font-size: 1rem;}
+    /* Home <main></main> */
     .title {font-size: 4rem;}
     .carousel-item {font-size: 1.3rem;}
     .subtitle {font-size: 1.5rem;}
     .card_title-size {font-size: 1.35rem;}
+    /* <footer></footer> */
     .fa-brands {
         font-size: 2.5em;
     }
