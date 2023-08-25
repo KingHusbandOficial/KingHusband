@@ -98,15 +98,6 @@ body {font-family: 'Montserrat', sans-serif;}
     -moz-box-shadow: 10px 10px 12px 0px #0d0d0dbf;
 }
 
-/* .project-element:hover {} */
-
-.project-1 {
-    background-image: url(../img/NimrodelPubRestaurant.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 150px;
-}
-
 .card-body:hover {cursor: pointer;}
 
 .card_title-size {font-size: 0.8rem;}
@@ -122,7 +113,31 @@ body {font-family: 'Montserrat', sans-serif;}
     border: 2px solid;
 }
 
-.about-p {font-size: 1rem;}
+.about-p {font-size: 0.8rem;}
+
+/* Contact <main></main> */
+
+.contact_form-input {
+    display: block;
+    background-color: transparent;
+    color: #efefef;
+    border-radius: 7.5px 7.5px 0 0;
+    border-width: 0px;
+    border-color: #000000;
+    border-style: none;
+    border: 2px solid transparent;
+    border-bottom: 2px solid #dddddd;
+}
+
+.contact_form-input:focus {
+    background-color: #353f48;
+    border: 2px solid #264de4;
+    outline: none;
+}
+
+textarea {
+    resize: none;
+}
 
 /* <footer></footer> */
 
@@ -174,6 +189,8 @@ body {font-family: 'Montserrat', sans-serif;}
         font-size: 0.825rem;
     }
     .card_title-size {font-size: 1rem;}
+    /* About <main></main>*/
+    .about-p {font-size: 0.9rem;}
     /* <footer></footer> */
     .fa-brands {
         font-size: 1.7rem;
@@ -196,6 +213,8 @@ body {font-family: 'Montserrat', sans-serif;}
         font-size: 0.85rem;
     }
     .card_title-size {font-size: 1.1rem;}
+    /* About <main></main>*/
+    .about-p {font-size: 1rem;}
     /* <footer></footer> */
     .fa-brands {
         font-size: 1.9rem;
@@ -223,6 +242,8 @@ body {font-family: 'Montserrat', sans-serif;}
         color: #f9f9f9;
         background-color: #7000d2;
     }
+    /* General main <main></main> */
+    .margin-main-top {margin-top: 76px;}
     /* Home <main></main> */
     .title {font-size: 3rem;}
     .carousel-item {font-size: 1.1rem;}
@@ -235,6 +256,7 @@ body {font-family: 'Montserrat', sans-serif;}
     /* About <main></main>*/
     .showedMain-about {padding-top: 3rem;}
     .about-p {font-size: 1.25rem;}
+    /* Contact <main></main> */
     /* <footer></footer> */
     .fa-brands {
         font-size: 2.1rem;
