@@ -16,7 +16,7 @@ let contactPage = false;
 
 //Modificar eventos para borrar el contenido del main.innerHTML y escribir el nuevo código para la sección seleccionada.
 
-btnHome.addEventListener('click', function () {
+function showHome() {
 	switch (homePage) {
 		case true:
 			break;
@@ -183,9 +183,9 @@ btnHome.addEventListener('click', function () {
 				</section>`;
 			break;
 	}
-});
+}
 
-btnAbout.addEventListener('click', function () {
+function showAbout() {
 	switch (aboutPage) {
 		case true:
 			break;
@@ -216,9 +216,9 @@ btnAbout.addEventListener('click', function () {
 			</section>`;
 			break;
 	}
-});
+}
 
-btnContact.addEventListener('click', function () {
+function showContact() {
 	switch (contactPage) {
 		case true:
 			break;
@@ -266,4 +266,8 @@ btnContact.addEventListener('click', function () {
 			contactFormMsg.value = "";
 			break;
 	}
-});
+}
+
+btnHome.addEventListener('click', showHome);
+btnAbout.addEventListener('click', showAbout);
+btnContact.addEventListener('click', showContact);
