@@ -268,6 +268,59 @@ function showContact() {
 	}
 }
 
+/* Eventos para cambiar de sección en sección de la página. */
+
 btnHome.addEventListener('click', showHome);
 btnAbout.addEventListener('click', showAbout);
 btnContact.addEventListener('click', showContact);
+
+/* Elementos <a></a> de las redes sociales */
+
+const fbLink = document.getElementById('facebook-link');
+const faFbI = document.getElementById('fa-facebook-i');
+
+const instaLink = document.getElementById('instagram-link');
+const faInstaI = document.getElementById('fa-instagram-i');
+
+const ghLink = document.getElementById('github-link');
+const faGhI = document.getElementById('fa-github-i');
+
+const liLink = document.getElementById('linkedin-link');
+const faLiI = document.getElementById('fa-linkedin-i');
+
+const ttLink = document.getElementById('twitter-link');
+const faTtI = document.getElementById('fa-twitter-i');
+
+/* Funciones para que al hacer hover en el elemento <a></a> genere los cambios en su respectivo elemento <i></i> */
+
+const faFbMOver = () => {faFbI.classList.add('fa-facebook-animation');}
+const faFbMOut = () => {faFbI.classList.remove('fa-facebook-animation');}
+
+const faInstaMOver = () => {faInstaI.classList.add('fa-instagram-animation');}
+const faInstaMOut = () => {faInstaI.classList.remove('fa-instagram-animation');}
+
+const faGhMOver = () => {faGhI.classList.add('fa-github-animation');}
+const faGhMOut = () => {faGhI.classList.remove('fa-github-animation');}
+
+const faLiMOver = () => {faLiI.classList.add('fa-linkedin-animation');}
+const faLiMOut = () => {faLiI.classList.remove('fa-linkedin-animation');}
+
+const faTtMOver = () => {faTtI.classList.add('fa-twitter-animation');}
+const faTtMOut = () => {faTtI.classList.remove('fa-twitter-animation');}
+
+/* Eventos asociados a los elementos <a></a> para ejecutar las animaciones */
+
+fbLink.addEventListener('mouseover', faFbMOver);
+fbLink.addEventListener('mouseout', faFbMOut);
+
+instaLink.addEventListener('mouseover', faInstaMOver);
+instaLink.addEventListener('mouseout', faInstaMOut);
+
+ghLink.addEventListener('mouseover', faGhMOver);
+ghLink.addEventListener('mouseout', faGhMOut);
+
+liLink.addEventListener('mouseover', faLiMOver);
+liLink.addEventListener('mouseout', faLiMOut);
+
+ttLink.addEventListener('mouseover', faTtMOver);
+ttLink.addEventListener('mouseout', faTtMOut);
